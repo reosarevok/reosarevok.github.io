@@ -5,8 +5,12 @@ body {
     width: 900px;
 }
 
-nav {
+header {
     background-color: darkseagreen;
+    width: 100%;
+}
+
+nav {
     display: flex;
     justify-content: space-around;
 }
@@ -16,9 +20,16 @@ nav a {
     display: inline-block;
     font-size: large;
     margin: 20px;
+    text-decoration: none;
+}
+
+.nickname {
+    color: red;
 }
 
 footer {
+    background-color: darkseagreen;
     position: absolute;
-    bottom: 100px;
+    bottom: 0;
+    width: 100%;
 }
