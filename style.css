@@ -1,0 +1,14 @@
+body {
+    background-color: cornflowerblue;
+}
+
+nav {
+    background-color: darkseagreen;
+    position: absolute;
+    top: 100px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+}
