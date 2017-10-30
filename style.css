@@ -7,12 +7,18 @@ body {
 
 nav {
     background-color: darkseagreen;
-    position: absolute;
-    top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: black;
     display: inline-block;
     font-size: large;
+    margin: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 100px;
 }
